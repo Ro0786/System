@@ -1,0 +1,92 @@
+@import url('https://fonts.google.com/specimen/Agbalumo')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: , sans-serif;
+}
+
+.back-vedio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-vedio{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-vedio{
+        height: 100%;
+        width: auto;
+    }
+}
+
+
+.content{
+    
+}
+
+.content h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+    color: #190be0;
+    font-weight: 600;
+    display: inline-block;
+
+}
+
+.subh {
+    text-align: center;
+  color: gold;
+}
+
+
+.diwali {
+    text-align: center;
+}
+
+.speech {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.photo {
+    height: auto;
+    width: 115px;
+    
+}
+
+.glowing-text {
+      font-size: 08px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      animation: glow 2s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff0077, 0 0 30px #1900ff;
+      }
+      50% {
+        text-shadow: 0 0 20px #fff, 0 0 20px #00ff88, 0 0 30px #73ff00;
+      }
+      100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff004c, 0 0 30px #ffa600;
+      }
+    }
+.audio {
+  align-items: center;
+}
+   
